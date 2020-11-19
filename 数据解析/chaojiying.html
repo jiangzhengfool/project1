@@ -1,0 +1,87 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>用户登录-超级鹰验证码识别代答题平台</title>
+<link href="/public/default/images/css.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<!--头部-->
+<div class="header">
+  <div class="header_cont">
+    <div class="logo">
+      <!--[if IE 6]>
+<script src="/js/png.js">
+  DD_belatedPNG.fix('.png,.adv_cot');
+  document.execCommand("BackgroundImageCache", false, true,.png);
+</script>
+<![endif]-->
+      <a href="/"><img src="/public/default/images/index_logo.png" width="301" height="53" border="0" class="png" /></a></div>
+    <div class="touch">客服QQ：800198998&nbsp;&nbsp;<a href="tencent://message/?uin=800198998&Site=chaojiying.com&Menu=yes"><img src="/public/default/images-new/zx_qq.gif" alt="点击发送消息给对方"></a><br />
+      服务热线：0317-431-6618&nbsp;(9:00~18:00)</div>
+  </div>
+</div><!--头部结束--> 
+
+<!--导航条-->
+<div class="nav">
+
+  <div class="mune">
+
+    <ul>
+
+      <li><a  href="/">首页</a></li>
+      <li><a  href="/cases.html">应用案例</a></li>
+      <li><a  href="/api.html">开发文档</a></li>
+
+	  <li><a  href="/price.html">价格体系</a> </li>
+
+	  
+
+      <li><a  href="/about.html">关于超级鹰</a></li>
+
+	  <li><a  href="/contact.html">联系超级鹰</a></li>
+
+      <!--<li><a  href="/vip.html">充值优惠</a> </li>-->
+
+      <!--<li><a  href="/zhushou.html">万能识别器</a></li>-->
+
+      <li><a class="top-home" href="/user/">用户中心</a></li>
+
+      <!--<li><a  href="/apiuser/">开发商中心</a></li>-->
+
+    </ul>
+
+  </div>
+
+</div><!--导航条结束--> 
+<div class="wrapper_danye">
+<div class="w-980 clearfix">
+<div style=" float:left;width:505px;"><span align="center"><font color=red>验证失败</font><hr></span></div>
+<div class="login_img"></div>
+<div class="content_login">
+            <h2>登录超级鹰用户中心</h2>
+            <!--<div id="bp_pass_login_form" class="tang-pass-login"></div>-->
+<div class="login_form">
+  <form name="fm2" method="post" action="">
+    <p class="login_form_item"><input name="user" type="text" class="form_item" value="" placeholder="用户账号">
+    </p> 
+    <p class="login_form_pass"><input type="password" name="pass" placeholder="密码" class="form_item"></p>
+	<div style="margin-bottom:5px; margin-left:-1px; width:240px;"><img src="/include/code/code.php?u=1" onclick="this.src='/include/code/code.php?u=1&t='+Math.random()" /></div>
+	<p class="login_form_pass"><input type="text" name="imgtxt" placeholder="输入验证码" class="form_item"></p>
+    <p><input type="submit" value="登录" class="login_form_input_submit"></p>
+    <input name="act" type="hidden" id="act" value="1">
+  </form>
+</div>
+            <div class="login-box-bottom">
+                <a href="/user/reg/" class="register">注册账号</a>
+                <a href="/user/getpass/" class="f-pass">忘记密码？</a>
+            </div>
+</div>
+
+</div>
+</div>
+
+<div class="foot">Copyright &copy; 2012 <a href="/">chaojiying.com</a> All rights reserved. 
+</body>
+</html>
